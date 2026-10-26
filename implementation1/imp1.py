@@ -65,7 +65,7 @@ if __name__ == '__main__':
     
     converted_x = rate_conversion(x, 147, 160, 1000)
     
-    equalizer_result = equalizer(converted_x, 44100, 1000, 3, 1, 1) 
+    equalizer_result = equalizer(converted_x, 44100, 1000, 6, 1, 1) 
     
     sf.write('output.wav', equalizer_result, 44100)
     #for this example i made it bass boosted
